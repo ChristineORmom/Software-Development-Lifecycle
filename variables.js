@@ -18,11 +18,11 @@ let lovesCode = true
   Write an if-statement that checks if the faveNum variable is 
   equal to 13. If it is, console.log('lucky 13!'). 
   If it's not, console.log('not lucky 13').
-*/if (faveNum === 13) {
+*/
+if (faveNum === 13) {
   console.log('lucky 13')}
 else {
-  console.log('not lucky 13')
-}  
+  console.log('not lucky 13')}  
 
 //////////////////PROBLEM 5////////////////////
 /*
