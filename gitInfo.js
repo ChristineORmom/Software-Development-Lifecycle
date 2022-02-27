@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "is a set of command line utility program that are designed to execute on a mac terminal command-line environment. Located locally on your mac computer. "
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "is a website that you join and create an account on to save your code files to share with your company, the public or potential employers. It is a remote repository of what you can code. A cloud you can save or back up code too."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+let gitInitDefinition = "creates a new Git repository.It can be used to initialize a new repository or can be use to make changes to an existing repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+let gitCloneDefinition = "git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+let gitStatusDefinition = "git status command displays the state of the working directoruy and the staging area. It lets you see which haven't, and which files aren't being tracked by Git."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,8 +52,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
-
+let gitAddDefinition = "The git add command adds new or changed files in your working directory to the Git staging area."
+let gitAddCode = "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -63,7 +63,8 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+let gitCommitDefinition = "The git commit command captures a snapshot of the projects's currently staged changes. Committed snapshouts can be thought of as safe versions of a project- git will never change them unless you explicity ask it to."
+let gitCommitCode = "initial commit"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +73,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+let gitPushDefinition = "The git push command is used to upload local repository content to a remote repository."
