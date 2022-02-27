@@ -1,14 +1,15 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+const faveColorsArray = ['red', 'green', 'black']
+const colorCopy = faveColorsArray.slice(0, 2)
 
-//CODE HERE
+
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+faveColorsArray.push('blue')
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -16,9 +17,9 @@ const faveColors = ['red', 'green', 'black']
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const numbers = [1, 2, 3, 4, 5]
+const numbersArray = [1, 2, 3, 4, 5]
 
-//CODE HERE
+const middleNumsArray = numbersArray.slice(1,3)
 
 
 //////////////////PROBLEM 4////////////////////
@@ -32,5 +33,9 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
-
-// CODE HERE
+if (bigOrSmallArray > 100) {
+  console.log('big')
+}
+if (bigOrSmallArray <= 100) {
+  console.log('small')
+}
